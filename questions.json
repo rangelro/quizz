@@ -1,0 +1,12 @@
+[
+  {"q": "Para que servem os testes automatizados?", "options": ["Deixar o código mais bonito", "Garantir que o software nunca terá bugs", "Verificar automaticamente se o código se comporta como esperado", "Substituir a revisão de código"], "answer": 2},
+  {"q": "O que são mocks nos testes unitários?", "options": ["Um tipo de relatório de cobertura", "Um banco de dados real usado só nos testes", "Uma ferramenta de CI", "Simulações de dependências, com comportamento controlado pelo teste"], "answer": 3},
+  {"q": "No padrão Arrange → Act → Assert, o que fazemos no Arrange?", "options": ["Executamos a função testada", "Preparamos os dados e as dependências do teste", "Verificamos o resultado final", "Fechamos a conexão com o banco"], "answer": 1},
+  {"q": "O que a cobertura de testes (coverage) mostra?", "options": ["Quais partes do código foram executadas durante os testes", "A qualidade dos testes escritos", "Quantos bugs existem no sistema", "A velocidade de execução dos testes"], "answer": 0},
+  {"q": "(Sim ou Não) Se o projeto tem 100% de cobertura, ele com certeza está livre de bugs.", "options": ["Sim", "Não"], "answer": 1},
+  {"q": "Qual destas práticas vai CONTRA as regras de ouro dos testes unitários?", "options": ["Testar um comportamento por vez", "Simular dependências externas", "Um teste depender do resultado de outro teste", "Testar o caminho feliz e o caminho triste separadamente"], "answer": 2},
+  {"q": "Qual é o objetivo de um teste de integração?", "options": ["Testar uma única função isolada", "Simular todas as dependências com mocks", "Medir a cobertura do código", "Verificar se diferentes componentes funcionam corretamente em conjunto (ex.: serviço + repositório + banco)"], "answer": 3},
+  {"q": "(Sim ou Não) Testes de integração substituem os testes unitários.", "options": ["Sim", "Não, eles se complementam"], "answer": 1},
+  {"q": "Qual ferramenta a oficina usa para executar os testes automaticamente quando alguém envia alterações ao repositório?", "options": ["Supertest", "SQLite", "GitHub Actions", "Docker"], "answer": 2},
+  {"q": "(Sim ou Não) Quando a pipeline de CI falha, o GitHub bloqueia automaticamente o push ou o Pull Request.", "options": ["Sim", "Não, isso depende da configuração do repositório (ex.: regras de proteção de branch)"], "answer": 1}
+]
